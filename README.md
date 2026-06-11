@@ -1,42 +1,64 @@
-# Customer Retention Analytics & Strategy Framework
+# Customer Retention Analytics & Growth Strategy Framework
 
 > Developed as part of the IIT Guwahati Consulting Summer Project
 
+## Contributors
+
+This project was completed as part of the **IIT Guwahati Consulting Summer Project** by:
+
+* **Sujal Burnwal**
+  GitHub: https://github.com/sujal-ece28
+
+* **Abhishek Shekhawat**
+  GitHub: https://github.com/abhishekshekhawat131
+
+---
+
 ## Overview
 
-Customer retention is one of the most critical drivers of long-term business growth. While organizations often track sales and revenue, understanding the behavioral patterns behind customer loyalty, discount dependency, and repeat purchasing is essential for building sustainable retention strategies.
+Customer retention is one of the most critical drivers of sustainable business growth. While organizations often focus on customer acquisition and revenue generation, long-term profitability depends on understanding customer loyalty, purchase behavior, promotional dependency, and value generation patterns.
 
-This project analyzes customer transaction and behavioral data for a fashion retail business to identify valuable customer segments, evaluate loyalty patterns, assess the effectiveness of promotional strategies, and generate actionable business recommendations.
+This project analyzes customer transaction and behavioral data for a fashion retail business to identify high-value customer segments, evaluate promotional effectiveness, understand retention drivers, and develop actionable growth recommendations.
 
-The analysis follows a consulting-oriented approach, transforming raw customer data into strategic insights through data cleaning, feature engineering, exploratory analysis, and business interpretation.
+Using Python, SQL, and Power BI, the project transforms raw customer data into business insights, customer segmentation frameworks, retention strategies, and executive-level recommendations.
+
+---
+
+## Project Scope
+
+This project combines analytics, business intelligence, and consulting methodologies to answer key customer retention and growth questions for a fashion retail business. The final output includes a complete analytical workflow, SQL-based business analysis, interactive dashboarding, a customer retention playbook, and executive-level recommendations.
 
 ---
 
 ## Business Problem
 
-The company seeks to answer the following questions:
+The company seeks to answer the following strategic questions:
 
 ### 1. Who are genuinely loyal customers versus discount-dependent customers?
 
-Identify customers who repeatedly purchase because of brand affinity versus those primarily motivated by discounts and promotions.
+Identify customers who repeatedly purchase due to brand affinity versus those primarily motivated by discounts and promotions.
 
 ### 2. What behavioral patterns predict high customer value?
 
-Determine which customer behaviors are most strongly associated with long-term customer value.
+Determine which customer behaviors most strongly contribute to long-term customer value.
 
 ### 3. Which geographies and demographics are commercially underleveraged?
 
-Identify customer segments with strong business potential that may not be fully targeted or utilized.
+Identify customer segments with strong business potential that may not currently be fully leveraged.
 
 ### 4. How should promotional and retention strategies be restructured?
 
-Evaluate whether current promotional efforts create sustainable customer relationships and recommend improvements.
+Evaluate whether current promotional efforts create sustainable customer relationships and recommend more effective retention approaches.
+
+### 5. What does the ideal customer look like?
+
+Develop a data-backed profile of the company's highest-value customers to support acquisition and retention efforts.
 
 ---
 
-## Dataset
+## Dataset Overview
 
-The dataset contains approximately 3,900 customer records with information related to:
+The analysis was performed on approximately **3,900 customer records** containing:
 
 * Customer demographics
 * Purchase behavior
@@ -54,7 +76,7 @@ The dataset contains approximately 3,900 customer records with information relat
 
 ## Project Workflow
 
-### Phase 1: Data Understanding
+### Phase 1 – Data Understanding
 
 Performed initial dataset inspection to understand:
 
@@ -76,7 +98,7 @@ Key techniques:
 
 ---
 
-### Phase 2: Data Cleaning
+### Phase 2 – Data Cleaning
 
 Data cleaning and standardization were performed to improve analytical reliability.
 
@@ -89,13 +111,13 @@ Tasks included:
 
 ---
 
-### Phase 3: Feature Engineering
+### Phase 3 – Feature Engineering
 
 Several business-oriented features were engineered to convert raw customer information into actionable behavioral signals.
 
 #### Frequency Score
 
-Converts purchase frequency into a numerical engagement metric.
+Measures customer engagement intensity based on purchase frequency.
 
 #### Organic Buyer Flag
 
@@ -117,7 +139,7 @@ Measures overall customer value using:
 
 Behavioral loyalty framework based on:
 
-* Frequency of purchases
+* Purchase frequency
 * Previous purchases
 * Organic buying behavior
 
@@ -131,57 +153,57 @@ Engagement-based loyalty framework based on:
 
 ---
 
-## Analysis Performed
+## Deliverables
 
-### Question 1
+### Deliverable 1 — Customer Analytics Framework
 
-#### Who are genuinely loyal customers versus discount-dependent customers?
+* Data Understanding
+* Data Cleaning
+* Exploratory Data Analysis
+* Feature Engineering
+* Customer Value Modeling
+* Loyalty Score Construction
+* Behavioral Analysis
+* Strategic Business Question Analysis
 
-Analyzed customer behavior through loyalty metrics and promotional dependency indicators to distinguish naturally loyal customers from promotion-driven customers.
+### Deliverable 2 — SQL-Based Business Analysis
 
----
+* Customer Segmentation
+* Tier Classification
+* Demographic Analysis
+* Geographic Analysis
+* Category Performance Analysis
+* Strategic Business Query Development
 
-### Question 2
+### Deliverable 3 — Power BI Dashboard
 
-#### What behavioral patterns predict high customer value?
+Interactive dashboard containing:
 
-Performed correlation analysis to identify which customer behaviors most strongly align with customer value generation.
+* Customer Value Distribution
+* Loyalty Analysis
+* Discount Dependency Analysis
+* Geographic Insights
+* Customer Segment Performance
+* Executive KPI Monitoring
 
-Key behavioral indicators evaluated:
+### Deliverable 4 — Retention Playbook
 
-* Purchase frequency
-* Previous purchase history
-* Organic purchasing behavior
-* Loyalty metrics
+* Promotional Sunset Strategy
+* Customer Tier Framework
+* Retention Recommendations
+* Implementation Roadmap
+* KPI Tracking Framework
+* Ideal Customer Profile
 
----
+### Deliverable 5 — Executive Summary
 
-### Question 3
+Founder-focused strategic summary including:
 
-#### Which geographies and demographics are commercially underleveraged?
-
-Analyzed customer value, loyalty, and organic buying behavior across:
-
-* Geographic regions
-* Age groups
-* Demographic segments
-
-to identify high-potential customer segments.
-
----
-
-### Question 4
-
-#### How should promotional and retention strategies be restructured?
-
-Compared discount-dependent and non-discount-dependent customers using:
-
-* Customer value
-* Loyalty
-* Purchase frequency
-* Average purchase amount
-
-to generate retention and promotional strategy recommendations.
+* Key Findings
+* Business Risks
+* Strategic Opportunities
+* Recommended Actions
+* Expected Business Impact
 
 ---
 
@@ -198,11 +220,36 @@ to generate retention and promotional strategy recommendations.
 
 ---
 
+## Key Insights
+
+The analysis revealed that:
+
+* Purchase frequency and purchase history are among the strongest drivers of customer value.
+* High-value customers can be identified through behavioral indicators rather than promotional responsiveness alone.
+* Certain demographic and geographic segments present stronger retention and growth opportunities.
+* Blanket discounting may not be the most effective long-term retention strategy.
+* Customer segmentation enables more targeted and efficient marketing decisions.
+
+---
+
 ## Technologies Used
+
+### Analytics
 
 * Python
 * Pandas
 * RapidFuzz
+
+### Data Querying
+
+* SQL
+
+### Business Intelligence
+
+* Power BI
+
+### Development & Version Control
+
 * Jupyter Notebook
 * Google Colab
 * Git
@@ -210,7 +257,7 @@ to generate retention and promotional strategy recommendations.
 
 ---
 
-## Project Structure
+## Repository Structure
 
 ```text
 customer-retention-analytics/
@@ -220,6 +267,16 @@ customer-retention-analytics/
 │
 ├── notebooks/
 │   └── customer_retention_analysis.ipynb
+│
+├── sql/
+│   └── customer_analysis.sql
+│
+├── dashboard/
+│   └── retention_dashboard.pbix
+│
+├── docs/
+│   ├── Retention_Playbook.docx
+│   └── Executive_Summary.docx
 │
 ├── README.md
 ├── requirements.txt
@@ -234,7 +291,7 @@ customer-retention-analytics/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/customer-retention-analytics.git
+git clone https://github.com/sujal-ece28/customer-retention-analytics.git
 cd customer-retention-analytics
 ```
 
@@ -254,30 +311,6 @@ Run the notebook sequentially from top to bottom.
 
 ---
 
-## Current Status
-
-### Completed
-
-* Data Understanding
-* Data Cleaning
-* Exploratory Data Analysis
-* Feature Engineering
-* Customer Value Modeling
-* Loyalty Framework Construction
-* Question 1 Analysis
-* Question 2 Analysis
-* Question 3 Analysis
-* Question 4 Analysis
-
-### Upcoming
-
-* SQL Analysis
-* Power BI Dashboard
-* Executive Summary
-* Final Presentation
-
----
-
 ## License
 
 This project is licensed under the MIT License.
@@ -288,4 +321,4 @@ This project is licensed under the MIT License.
 
 This repository contains work completed as part of the IIT Guwahati Consulting Summer Project.
 
-The project is intended for educational, analytical, and portfolio purposes and demonstrates the application of data analytics techniques to customer retention and business strategy problems.
+The project is intended for educational, analytical, and portfolio purposes and demonstrates the application of analytics, business intelligence, and consulting methodologies to customer retention and growth strategy problems.
